@@ -4,22 +4,21 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.4-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.4/disconnect-zero-1.0.4.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.5-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.5/disconnect-zero-1.0.5.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.4/disconnect-zero-1.0.4.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.5/disconnect-zero-1.0.5.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.4**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.5**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.4) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.5) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
 
-## v1.0.4에서 달라진 점
+## v1.0.5에서 달라진 점
 
-- 앱 설명·업데이트 기능을 **우측 상단 톱니바퀴 → 설정**으로 이동
-- 새 버전이 있으면 톱니바퀴에 **빨간 점** 표시
-- **지금 업데이트 확인 바로 아래**에 다운로드 버튼 배치
-- 변경사항은 **현재 버전 변경사항** 버튼을 눌렀을 때만 간단히 표시
+- 설정에 **라이트 · 다크 · 휴대폰 설정에 맞춤** 추가
+- 메인 화면에 **색상별 5단계 신호 강도 기준** 표시
+- 앱 이름 아래 기능 요약과 여유 있는 간격 적용
 
-<p><img src="main-screen.png" width="280" alt="설명과 업데이트를 설정으로 옮긴 메인 화면"> <img src="settings-screen.png" width="280" alt="업데이트 확인과 다운로드를 모은 설정 화면"></p>
+<p><img src="main-screen.png" width="280" alt="기능 요약과 여백을 추가한 라이트 모드 메인 화면"> <img src="settings-screen.png" width="280" alt="다크 모드 설정 화면과 세 가지 화면 모드"></p>
 
 아이콘의 `−50 dBm`은 앱의 용도를 표현하는 고정 디자인입니다. 실시간 측정값은 앱과 위젯에서 확인하세요. 아이콘 자체에 배경판은 없지만 런처 설정에 따라 외곽 모양이나 배경이 적용될 수 있습니다.
 
@@ -38,6 +37,16 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 - **상대 신호 강도(%)**: 높을수록 강한 신호입니다. −90 dBm을 0%, −50 dBm 이상을 100%로 환산한 참고값입니다.
 - **실제 수신 신호 강도(dBm)**: 음수로 표시되며 0에 가까울수록 강합니다. 예를 들어 −50 dBm은 −75 dBm보다 강합니다.
 - 매우약함 / 약함 / 중간 / 강함 / 매우강함의 **5단계**로 구분하며 배경색도 바뀝니다. 인터넷 속도나 연결 성공률을 뜻하지는 않습니다.
+- 메인 화면의 **5단계 신호 강도 기준**에서 위젯 숫자·배경의 적용 색상을 확인할 수 있습니다.
+
+| 단계 | 수신 신호 강도 | 표시 색상 |
+|---|---|---|
+| 매우약함 | −81 dBm 이하 | 코랄 |
+| 약함 | −80 ~ −71 dBm | 주황 |
+| 중간 | −70 ~ −61 dBm | 노랑 |
+| 강함 | −60 ~ −51 dBm | 연두 |
+| 매우강함 | −50 dBm 이상 | 하늘색 |
+
 
 ### 2. 1×1 · 2×1 · 3×2 홈 화면 위젯
 
@@ -78,9 +87,16 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 - 새 버전은 공식 GitHub APK를 다운로드한 뒤 Android 설치 화면에서 확인합니다. 무인 설치 기능은 아닙니다.
 - 절전·네트워크·Android 제한으로 갱신이 지연될 수 있습니다. 앱을 강제 종료했다면 다시 열어 주세요.
 
+### 6. 라이트 · 다크 · 자동 화면 모드
+
+- **우측 상단 톱니바퀴 → 설정 → 화면 모드**에서 선택합니다.
+- **휴대폰 설정에 맞춤**이 기본값이며 휴대폰의 라이트·다크 설정을 따라 자동으로 바뀝니다.
+- **라이트 모드 / 다크 모드**를 고르면 휴대폰 설정과 관계없이 선택한 모드를 유지합니다.
+- 메인·설정 화면과 Wi-Fi 연결 팝업에 적용됩니다. 홈 화면 위젯은 신호 강도별 색상과 사용자가 고른 불투명도를 유지합니다.
+
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.4.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.5.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
@@ -107,8 +123,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.0.4**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.0.5**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.4)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.5)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
