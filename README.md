@@ -4,20 +4,22 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.3-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.3/disconnect-zero-1.0.3.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.4-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.4/disconnect-zero-1.0.4.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.3/disconnect-zero-1.0.3.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.4/disconnect-zero-1.0.4.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.3**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.4**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.3) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.4) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
 
-## v1.0.3에서 달라진 점
+## v1.0.4에서 달라진 점
 
-- 라임 그린 Wi-Fi 심볼과 `−50 dBm`을 조합한 새 앱 아이콘 및 앱 상단 로고
-- 중간·큰 위젯 상단에 연결된 이름과 대역·버전 표시, 큰 위젯 주변 목록의 현재 연결 항목 중복 제거
-- 긴 Wi-Fi 이름, 작은 위젯 크기, 확대 글꼴에서 정보 겹침과 숫자 잘림 개선
-- 기존 신호 강도·데이터 집계·자동 업데이트 확인과 알림 기능 유지
+- 앱 설명·업데이트 기능을 **우측 상단 톱니바퀴 → 설정**으로 이동
+- 새 버전이 있으면 톱니바퀴에 **빨간 점** 표시
+- **지금 업데이트 확인 바로 아래**에 다운로드 버튼 배치
+- 변경사항은 **현재 버전 변경사항** 버튼을 눌렀을 때만 간단히 표시
+
+<p><img src="main-screen.png" width="280" alt="설명과 업데이트를 설정으로 옮긴 메인 화면"> <img src="settings-screen.png" width="280" alt="업데이트 확인과 다운로드를 모은 설정 화면"></p>
 
 아이콘의 `−50 dBm`은 앱의 용도를 표현하는 고정 디자인입니다. 실시간 측정값은 앱과 위젯에서 확인하세요. 아이콘 자체에 배경판은 없지만 런처 설정에 따라 외곽 모양이나 배경이 적용될 수 있습니다.
 
@@ -70,19 +72,19 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 - 앱 화면에서는 현재 신호 강도를 약 2초마다, 주변 목록을 약 1분마다 갱신합니다. 백그라운드 갱신은 약 30분 주기입니다.
 - **약 6시간마다 새 정식 버전을 자동 확인**하고, 알림을 허용하면 새 버전당 한 번 알려 줍니다. 테스트·베타 릴리스는 업데이트 대상에서 제외합니다.
-- 앱의 **지금 업데이트 확인** 버튼으로 즉시 확인할 수 있습니다. 자동 확인·알림은 설정에서 끌 수 있으며, 꺼도 수동 확인은 가능합니다.
-- **테스트 알림 보내기**로 실제 알림을 확인하고, 알림 허용 여부·자동 확인 예약 상태·최근 백그라운드 확인 결과를 볼 수 있습니다. 알림을 누르면 앱 업데이트 영역으로 이동합니다.
-- 현재 버전 변경사항과 새 버전 변경사항을 앱에서 확인할 수 있습니다. 재부팅·앱 업데이트 후에도 자동 확인 예약을 복구합니다.
+- **우측 상단 톱니바퀴 → 설정 → 지금 업데이트 확인** 버튼으로 즉시 확인할 수 있습니다. 자동 확인·알림은 설정에서 끌 수 있으며, 꺼도 수동 확인은 가능합니다.
+- **테스트 알림 보내기**로 실제 알림을 확인하고, 알림 허용 여부·자동 확인 예약 상태·최근 백그라운드 확인 결과를 볼 수 있습니다. 알림을 누르면 설정의 업데이트 영역으로 이동합니다. 메인 화면의 톱니바퀴에 빨간 점이 있으면 새 버전이 있다는 뜻입니다.
+- 현재 버전 변경사항은 설정의 **현재 버전 변경사항** 버튼을 눌러 확인합니다. 화면에 긴 변경사항을 상시 표시하지 않습니다. 재부팅·앱 업데이트 후에도 자동 확인 예약을 복구합니다.
 - 새 버전은 공식 GitHub APK를 다운로드한 뒤 Android 설치 화면에서 확인합니다. 무인 설치 기능은 아닙니다.
 - 절전·네트워크·Android 제한으로 갱신이 지연될 수 있습니다. 앱을 강제 종료했다면 다시 열어 주세요.
 
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.3.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.4.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
-5. 새 버전 알림을 받으려면 **앱 업데이트 → 업데이트 알림 허용 / 설정**에서 알림을 켭니다.
+5. 새 버전 알림을 받으려면 **우측 상단 톱니바퀴 → 설정 → 업데이트 알림 허용 / 설정**에서 알림을 켭니다.
 
 기존 배포본과 동일한 서명이므로 **기존 앱을 지우지 않고 위에 설치**하면 설정이 유지됩니다.
 
@@ -105,8 +107,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.0.3**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.0.4**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.3)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.4)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
