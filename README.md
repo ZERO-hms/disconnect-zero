@@ -4,13 +4,22 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.0-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.0/disconnect-zero-1.0.0.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.3-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.3/disconnect-zero-1.0.3.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.0/disconnect-zero-1.0.0.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.3/disconnect-zero-1.0.3.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.0**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.3**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.0) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.3) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+
+## v1.0.3에서 달라진 점
+
+- 라임 그린 Wi-Fi 심볼과 `−50 dBm`을 조합한 새 앱 아이콘 및 앱 상단 로고
+- 중간·큰 위젯 상단에 연결된 이름과 대역·버전 표시, 큰 위젯 주변 목록의 현재 연결 항목 중복 제거
+- 긴 Wi-Fi 이름, 작은 위젯 크기, 확대 글꼴에서 정보 겹침과 숫자 잘림 개선
+- 기존 신호 강도·데이터 집계·자동 업데이트 확인과 알림 기능 유지
+
+아이콘의 `−50 dBm`은 앱의 용도를 표현하는 고정 디자인입니다. 실시간 측정값은 앱과 위젯에서 확인하세요. 아이콘 자체에 배경판은 없지만 런처 설정에 따라 외곽 모양이나 배경이 적용될 수 있습니다.
 
 ## 이 앱을 만든 이유
 
@@ -31,7 +40,8 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 ### 2. 1×1 · 2×1 · 3×2 홈 화면 위젯
 
 - 모든 크기에 상대 신호 강도와 dBm, 모바일 데이터 사용량을 표시합니다.
-- 2×1·3×2에는 현재 연결의 주파수 대역과 Wi-Fi 규격을 표시합니다. 3×2에는 주변 Wi-Fi 목록도 보여 줍니다.
+- 2×1·3×2 상단에는 **현재 연결된 Wi-Fi 이름 · 주파수 대역 · Wi-Fi 버전**을 한 줄로 표시합니다. 긴 이름은 말줄임 처리하고 대역·버전은 별도로 유지합니다.
+- 3×2에는 주변 Wi-Fi 목록도 보여 줍니다. 이름 옆에 대역·버전을 표시하며 **현재 연결된 이름과 같은 Wi-Fi는 위젯 후보 목록에서 제외**합니다. 같은 이름으로 묶인 다른 AP/대역도 함께 제외됩니다. 이름을 읽을 수 없는 상태에서는 제외 여부를 판별하지 않습니다.
 - **배경 불투명도 0–100%, 글씨 크기 80–140%**를 앱에서 조절하고 상단 미리보기로 확인할 수 있습니다.
 - 중간·큰 위젯은 텍스트와 가장자리 사이에 여백을 두었습니다. 크기는 홈 화면에서 길게 눌러 테두리로 조절합니다. 실제 배치는 런처 격자에 따라 달라집니다.
 - 일반 영역을 누르면 앱이 열리고, 주변 Wi-Fi 항목을 누르면 해당 네트워크의 연결 팝업이 열립니다.
@@ -68,7 +78,7 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.0.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.3.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
@@ -81,8 +91,8 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 | 기능 | 필요한 설정 | 사용 목적 |
 |---|---|---|
 | 현재 신호 강도 | 별도 위치 권한 없이 사용 | 연결된 Wi-Fi 수신 강도 확인 |
-| 주변 Wi-Fi 검색 | 정확한 위치 권한 + 위치 켜기 | Android가 요구하는 주변 네트워크 검색 조건 |
-| 앱을 닫은 상태의 주변 검색 | 위치 항상 허용 | 예약된 주변 검색 |
+| 연결된 Wi-Fi 이름·주변 검색 | 정확한 위치 권한 + 위치 켜기 | Android가 요구하는 네트워크 이름·검색 정보 접근 조건 |
+| 앱을 닫은 상태의 이름 갱신·주변 검색 | 위치 항상 허용 | 예약된 이름 갱신과 주변 검색 |
 | 모바일 데이터 집계 | 사용정보 접근 허용 | 기기 전체 모바일 데이터 합계 확인 |
 | 업데이트 알림 | 알림 허용(선택) | 새로운 앱 버전 안내 |
 
@@ -95,8 +105,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.0.0**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.0.3**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.0)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.3)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
