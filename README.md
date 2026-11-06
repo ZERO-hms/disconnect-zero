@@ -4,18 +4,18 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.7-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.7/disconnect-zero-1.0.7.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.0.8-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.8/disconnect-zero-1.0.8.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.7/disconnect-zero-1.0.7.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.0.8/disconnect-zero-1.0.8.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.7**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.0.8**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.7) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.8) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
 
-## v1.0.7에서 달라진 점
+## v1.0.8에서 달라진 점
 
-- 주변 Wi-Fi 항목을 **둥근 카드 · 테두리 · 간격**으로 구분
-- **앱 목록에서도 현재 연결된 Wi-Fi 제외**, 연결 변경·해제 시 목록 갱신
+- 설정에 **설치 · 보안 설정 안내** 추가
+- GitHub에 설치 차단 종류별 허용 경로와 설치 후 복원 방법 안내
 
 <p><img src="nearby-list-light.png" width="420" alt="라이트 모드의 주변 Wi-Fi 카드 목록"> <img src="nearby-list-dark.png" width="420" alt="다크 모드의 주변 Wi-Fi 카드 목록"></p>
 
@@ -102,13 +102,34 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.7.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.0.8.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
 5. 새 버전 알림을 받으려면 **우측 상단 톱니바퀴 → 설정 → 업데이트 알림 허용 / 설정**에서 알림을 켭니다.
 
 기존 배포본과 동일한 서명이므로 **기존 앱을 지우지 않고 위에 설치**하면 설정이 유지됩니다.
+
+### 설치가 차단되거나 권한을 켤 수 없다면
+
+1. 이 출처 허용
+설정에서 ‘출처를 알 수 없는 앱 설치’를 검색 → APK를 연 브라우저 또는 ‘내 파일’ 선택 → ‘이 출처 허용’을 켭니다. 설치 후 같은 메뉴에서 다시 끌 수 있습니다. 디스커넥트제로가 아닌 APK를 여는 앱에 주는 권한입니다.
+
+2. 갤럭시 보안 위험 자동 차단
+이 기능 때문에 설치가 차단되고 출처를 확인한 경우에만 설정 → 보안 및 개인정보 보호 → 보안 위험 자동 차단을 잠시 끈 뒤 설치하세요. 설치 후 다시 켜세요. 메뉴는 One UI 버전에 따라 다릅니다.
+
+3. 설치 후 제한된 설정
+모바일 데이터 집계의 ‘사용정보 접근’이 차단될 때만 설정 → 애플리케이션 → 디스커넥트제로 → ⋮ → 제한된 설정 허용을 선택하고, 사용정보 접근 화면에서 다시 허용하세요. 본인 인증을 요구할 수 있습니다. 이 권한은 데이터 집계에 필요하며 Wi-Fi 신호 강도만 볼 때는 필수가 아닙니다.
+
+4. Google Play 프로텍트
+검사 요청이 나오면 검사를 진행하세요. ‘유해한 앱’ 또는 ‘기기 보호를 위해 앱 차단됨’은 위 설정과 다른 경고입니다. 보호 기능을 일괄 해제하기보다 공식 배포 파일·버전과 경고 문구를 확인해 개발자에게 알려 주세요. 오탐 여부는 개발자가 Google에 검토를 요청할 수 있습니다. 모든 차단이 위 설정으로 해결되는 것은 아닙니다.
+
+회사·학교 관리 기기에서 변경이 제한되면 관리자에게 문의하세요. 설치 허용과 기능별 권한 허용은 별도이며, 필요한 항목만 직접 선택합니다.
+
+
+공식 도움말: [삼성 보안 위험 자동 차단](https://www.samsungsvc.co.kr/solution/1711930), [Google 제한된 설정](https://support.google.com/android/answer/12623953?hl=ko), [Google Play 프로텍트](https://support.google.com/googleplay/answer/2812853?hl=ko).
+
+앱에서는 **톱니바퀴 → 설정 → 설치 · 보안 설정 안내**에서 같은 내용을 확인합니다.
 
 ## 필요한 권한과 개인정보
 
@@ -129,8 +150,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.0.7**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.0.8**입니다. API 35 에뮬레이터에서 업데이트 설치·버전 조회·알림·위젯 표시를 검증했습니다. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.7)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.0.8)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
