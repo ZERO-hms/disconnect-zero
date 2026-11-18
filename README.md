@@ -4,20 +4,18 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.1.2-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.2/disconnect-zero-1.1.2.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.1.3-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.3/disconnect-zero-1.1.3.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.2/disconnect-zero-1.1.2.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.3/disconnect-zero-1.1.3.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.1.2**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.1.3**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.2) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.3) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
 
-## v1.1.2에서 달라진 점
+## v1.1.3에서 달라진 점
 
-- 무선 디버깅 자동 포트 탐색 보완, 느린 연결 응답을 너무 일찍 끊던 문제 수정
-- 페어링 기록과 실제 연결 성공을 구분하고 단계별 오류·진단 복사 제공
-- **현재 연결 포트 입력**을 연결 안내 상단에 배치
-- 위젯 연결 대기 중에도 시스템 연결 제공, 실패 후 Android 암호 저장 요청 선택 가능
+- Wi-Fi 제어 기능의 준비 응답을 받은 뒤 선택한 네트워크에 한 번만 연결을 요청합니다.
+- 결과가 도착하면 바로 읽어 연결 상태를 표시합니다. 통신이 중단되면 준비·전송·결과 대기 중 어느 단계였는지 진단에서 확인할 수 있습니다.
 
 <p><img src="nearby-list-light.png" width="420" alt="라이트 모드의 주변 Wi-Fi 카드 목록"> <img src="nearby-list-dark.png" width="420" alt="다크 모드의 주변 Wi-Fi 카드 목록"></p>
 
@@ -129,7 +127,7 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.1.2.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.1.3.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
@@ -181,8 +179,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.1.2**입니다. 무선 디버깅 기능의 검증 범위와 기기별 미확인 사항은 아래 검증 안내에 기록합니다. 검증 완료 범위는 아래 검증 안내를 참고하세요. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.1.3**입니다. 무선 디버깅 기능의 검증 범위와 기기별 미확인 사항은 아래 검증 안내에 기록합니다. 검증 완료 범위는 아래 검증 안내를 참고하세요. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.2)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.3)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
