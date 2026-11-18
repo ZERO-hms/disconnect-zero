@@ -4,19 +4,19 @@
 
 **Wi-Fi 신호 강도와 모바일 데이터 사용량을 홈 화면에서 한눈에.**
 
-[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.1.0-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.0/disconnect-zero-1.1.0.apk)
+[![Android APK 다운로드](https://img.shields.io/badge/Android_APK_다운로드-1.1.1-168DAB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.1/disconnect-zero-1.1.1.apk)
 
-### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.0/disconnect-zero-1.1.0.apk)
+### [⬇ 눌러서 앱 설치 파일 받기 (.apk)](https://github.com/ZERO-hms/disconnect-zero/releases/download/v1.1.1/disconnect-zero-1.1.1.apk)
 
-**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.1.0**
+**GitHub 로그인 없이 다운로드할 수 있습니다.** Android 12 이상 · 현재 버전 **1.1.1**
 
-[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.0) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
+[이번 버전 변경 사항](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.1) · [공식 배포 페이지](https://github.com/ZERO-hms/disconnect-zero/releases)
 
-## v1.1.0에서 달라진 점
+## v1.1.1에서 달라진 점
 
-- **무선 디버깅으로 위젯·앱 목록에서 Wi-Fi 바로 연결** 추가
-- 저장된 개인용 Wi-Fi는 암호 재입력 없이, 새 Wi-Fi는 이름이 보이는 암호 팝업으로 연결 요청
-- 알림의 6자리 코드 입력, 자동 포트 탐색, 다시 연결·연결 정보 삭제 안내
+- 주변 Wi-Fi의 최신 결과가 대기 상태에 가려지는 문제 수정
+- 앱 밖에서 완료된 검색 결과 반영, 빠르게 다시 누른 검색 요청 자동 재시도
+- 오래된 목록과 실제 후보 없음 구분, **검색 상태 확인** 추가
 
 <p><img src="nearby-list-light.png" width="420" alt="라이트 모드의 주변 Wi-Fi 카드 목록"> <img src="nearby-list-dark.png" width="420" alt="다크 모드의 주변 Wi-Fi 카드 목록"></p>
 
@@ -109,7 +109,7 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 - 위젯은 **1분마다 연결 상태를 확인하고 주변 검색을 요청**하며 Wi-Fi 끊김·재연결과 LTE·5G 등 연결 변경도 시스템에서 감지되면 바로 반영합니다. 앱 화면의 현재 신호 강도는 약 2초마다 확인합니다.
 - 위치를 **앱 사용 중 허용 + 정확한 위치**로 설정하고 휴대폰 위치를 켠 뒤 앱을 한 번 열어 주세요. 실행 중 알림이 유지되면 앱 화면을 닫아도 주변 검색을 이어갑니다. 재부팅·서비스 종료 뒤 검색 권한 적용 안내가 나오면 앱을 다시 열어 주세요. 홈 화면에서 검색을 계속하기 위해 항상 허용으로 바꿀 필요는 없습니다.
-- 큰 위젯 하단은 **연결 확인 시각 / 주변 목록 검색 시각**을 나눠 표시합니다. 목록이 갱신되지 않으면 검색 제한·실패·권한 또는 실행 상태를 안내합니다. 2분 넘은 결과는 현재 연결 가능한 목록으로 오인하지 않도록 숨기며, 검색 실패 시 시각만 최신으로 바꾸지 않습니다.
+- 큰 위젯 하단은 **연결 확인 시각 / 주변 목록 검색 시각**을 나눠 표시합니다. 목록이 갱신되지 않으면 검색 제한·실패·권한 또는 실행 상태를 안내합니다. 2분 넘은 결과는 현재 연결 가능한 목록으로 오인하지 않도록 숨기며, 검색 실패 시 시각만 최신으로 바꾸지 않습니다. 메인의 **검색 상태 확인**에서 시스템 목록 수·최근 결과 수·위치 권한·실행 상태를 확인할 수 있습니다. Wi-Fi 설정에서 검색하고 앱으로 돌아오면 최신 시스템 목록도 반영합니다.
 - **설정 → 위젯 자동 갱신 → 1분마다 자동 갱신**에서 끌 수 있습니다. 계속 실행하기 위한 소리 없는 실행 중 알림이 표시됩니다. 끄면 시스템 예약 작업(약 30분)으로만 갱신합니다.
 - 절전·화면 꺼짐 상태에서는 1분 갱신도 지연될 수 있으며 화면을 켜면 다시 확인합니다. 주변 Wi-Fi 검색은 Android 검색 횟수 제한으로 1분보다 늦을 수 있습니다. 앱을 강제 종료했다면 다시 열어 주세요.
 - **약 6시간마다 새 정식 버전을 자동 확인**하고, 알림을 허용하면 새 버전당 한 번 알려 줍니다. 테스트·베타 릴리스는 업데이트 대상에서 제외합니다.
@@ -128,7 +128,7 @@ Wi-Fi 아이콘의 몇 칸만으로는 연결 상태를 정확히 느끼기 어�
 
 ## 설치 방법
 
-1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.1.0.apk`를 받습니다.
+1. 위의 **APK 다운로드** 버튼을 눌러 `disconnect-zero-1.1.1.apk`를 받습니다.
 2. 다운로드한 APK를 열어 설치합니다. 처음 설치할 때 Android가 해당 브라우저나 파일 앱의 ‘이 출처 허용’을 요청할 수 있습니다.
 3. 앱을 한 번 열고 필요한 기능의 권한을 선택합니다.
 4. 홈 화면의 빈 곳을 길게 누른 뒤 **위젯 → 디스커넥트제로**를 추가하거나 앱의 **홈 화면에 위젯 추가**를 사용합니다.
@@ -180,8 +180,8 @@ Wi-Fi 목록과 측정값, 데이터 사용량은 기기에만 저장합니다. 
 ## 지원 환경과 배포 안내
 
 - Android 12 이상. Galaxy Z Fold7 등 Android 스마트폰에서 사용할 수 있도록 설계했습니다.
-- 현재 **정식 v1.1.0**입니다. 무선 디버깅 기능의 검증 범위와 기기별 미확인 사항은 아래 검증 안내에 기록합니다. 검증 완료 범위는 아래 검증 안내를 참고하세요. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
+- 현재 **정식 v1.1.1**입니다. 무선 디버깅 기능의 검증 범위와 기기별 미확인 사항은 아래 검증 안내에 기록합니다. 검증 완료 범위는 아래 검증 안내를 참고하세요. 실제 기기별 연결·절전 동작과 장시간 자동 확인은 추가 확인이 필요합니다.
 - **이 저장소는 설치 파일과 사용 안내를 배포하는 곳이며, 앱 소스 코드는 공개하지 않습니다.** Releases의 자동 생성 `Source code (zip/tar.gz)`는 이 안내 저장소의 문서 사본으로, 앱 소스나 설치 파일이 아닙니다. 설치하려면 상단 **APK 다운로드**를 이용하세요.
-- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.0)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
+- 현재 변경사항과 검증 범위는 [정식 릴리스](https://github.com/ZERO-hms/disconnect-zero/releases/tag/v1.1.1)와 [검증 안내](VALIDATION.md)에서 확인할 수 있습니다.
 
 문제가 있으면 [Issues](https://github.com/ZERO-hms/disconnect-zero/issues)에 기기 모델, Android/One UI 버전, 앱 버전, 재현 순서를 남겨 주세요. Wi-Fi 암호 등 민감한 정보는 포함하지 마세요.
